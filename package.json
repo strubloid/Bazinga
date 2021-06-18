@@ -4,6 +4,7 @@
   "description": "Bazinga",
   "main": "index.js",
   "scripts": {
+    "build": "tsc --project ./",
     "start": "tsc src/main.ts"
   },
   "repository": {
