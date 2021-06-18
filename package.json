@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --project ./",
-    "start": "tsc src/main.ts"
+    "start": "./build/src/main.js",
+    "dev": "npm run build && npm run start"
   },
   "repository": {
     "type": "git",
